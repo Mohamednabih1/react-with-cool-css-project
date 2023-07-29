@@ -1,6 +1,6 @@
 import './App.css';
 import $ from 'jquery';
-
+import Card from "./components/profile"
 function App() {
 
   class StickyNavigation {
@@ -143,8 +143,7 @@ function App() {
 
       <main className="et-main">
         <section className="et-slide" id="tab-es6">
-          <h1>ES6</h1>
-          <h3>something about es6</h3>
+          <Card></Card>
         </section>
         <section className="et-slide" id="tab-flexbox">
           <h1>Flexbox</h1>
